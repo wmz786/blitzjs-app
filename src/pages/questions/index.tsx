@@ -20,7 +20,7 @@ export const QuestionsList = () => {
 
   const goToPreviousPage = () => router.push({ query: { page: page - 1 } })
   const goToNextPage = () => router.push({ query: { page: page + 1 } })
-
+  // add questions bu just generate command in terminal
   return (
     <div>
       <ul>
